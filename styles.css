@@ -1,0 +1,243 @@
+/* Reset default margin and padding */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Header styles */
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+}
+/* Fix the navigation bar */
+.fixed-nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 999;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo a:hover {
+  color: #ddd;
+  box-shadow: 0 0 30px rgba(188, 224, 116, 0.8);
+}
+.logo {
+  color: #fff;
+  font-size: 24px;
+  text-decoration: none;
+}
+
+
+.navigation li {
+  display: inline-block;
+  margin-left: 20px;
+}
+
+.navigation a {
+  color: #fff;
+  text-decoration: none;
+}
+.navigation a:hover {
+  color: #ddd;
+  box-shadow: 0 0 30px rgba(188, 224, 116, 0.8);
+}
+
+
+/* Hero section styles */
+.hero-section {
+  background-color: #f2f2f2;
+  padding: 100px;
+  text-align: center;
+}
+
+.hero-section h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.hero-section p {
+  font-size: 24px;
+  margin-bottom: 40px;
+}
+
+.cta-button {
+  background-color: #333;
+  color: #fff;
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 18px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+  background-color: #555;
+}
+
+/* News section styles */
+.news-section {
+  padding: 40px;
+  text-align: center;
+}
+
+.news-section h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.news-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 40px;
+}
+
+.news-card {
+  flex-basis: 300px;
+  margin: 20px;
+  text-align: center;
+}
+
+.news-card img {
+  width: 100%;
+  max-height: 200px;
+  object-fit: cover;
+  margin-bottom: 20px;
+}
+
+.news-card h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.news-card p {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.read-more {
+  background-color: #333;
+  color: #fff;
+  display: inline-block;
+  padding: 8px 16px;
+  font-size: 16px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.read-more:hover {
+  background-color: #555;
+}
+
+/* Existing CSS code */
+
+/* Category section styles */
+.category-section {
+  padding: 40px;
+  text-align: center;
+}
+
+.category-section h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.category-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 40px;
+}
+
+.category-card {
+  flex-basis: 300px;
+  margin: 20px;
+  text-align: center;
+}
+
+.category-card img {
+  width: 100%;
+  max-height: 200px;
+  object-fit: cover;
+  margin-bottom: 20px;
+}
+
+.category-card h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+
+
+/* Footer styles */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.footer-section {
+  width: 33.33%;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.footer-section h3 {
+  color: #fff;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.footer-section p {
+  color: #ddd;
+  margin-bottom: 5px;
+}
+
+.read-more {
+  color: #fff;
+  text-decoration: none;
+}
+
+.enquiry-form input,
+.enquiry-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.enquiry-form textarea {
+  height: 100px;
+}
+
+.enquiry-form button {
+  padding: 10px 20px;
+  background-color: #555;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.enquiry-form button:hover {
+  background-color: #444;
+}
